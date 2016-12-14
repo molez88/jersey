@@ -13,6 +13,6 @@ class Data extends CI_Controller
 	}
 
 	function index(){
-		$this->load->view('admin/dataOperator/v_dataOperator');
+		$this->load->view('admin/kategoriBarang/v_kategori');
 	}
 }

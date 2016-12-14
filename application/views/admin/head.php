@@ -4,13 +4,15 @@
 		<title>Halaman Admin</title>
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url("css/app.css");?>">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url("css/bootstrap.min.css");?>">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url("css/bootstrap.css");?>">
+		
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-static-top ">
 			<div id="header-menu">
 			  <div class="container-fluid">
 			    <div class="navbar-header" style="background-color: #464CC6;">
-			      <a class="navbar-brand" href=""><b>Jersey Bola</b></a>
+			      <a class="navbar-brand" href="<?php echo base_url("admin/homepage");?>"><b>Jersey Bola</b></a>
 			    </div>
 			   <div>
 		      <ul class="nav navbar-nav">
