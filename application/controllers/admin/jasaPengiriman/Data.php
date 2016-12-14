@@ -8,13 +8,12 @@ class Data extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
+		//Do your magic here
 		$this->load->view('admin/head');
 		$this->load->view('admin/menu_master_data');
-		$this->load->model('admin/MdataOperator');
 	}
 
 	function index(){
-		$data['hasil'] = $this->MdataOperator->show();
-		$this->load->view('admin/dataOperator/v_dataOperator',$data);
+		$this->load->view('admin/jasaPengiriman/v_dataPengiriman');
 	}
 }

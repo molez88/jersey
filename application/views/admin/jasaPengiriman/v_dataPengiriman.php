@@ -2,14 +2,19 @@
 	<div class="container-fluid">
 		
 		<div class="col-md-offset-3">
-			<h3><i class="glyphicon glyphicon-hdd"></i> &nbspData Barang</h3>
+			<h3><i class="glyphicon glyphicon-hdd"></i> &nbspJasa Pengiriman</h3>
 
 			<div class="panel panel-primary">
 				<div class="panel-body">
 				<a href="#" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i><b>&nbspTambah</b></a>
+				<div id="search">
+					<label>Cari : <input type="search" name="search"></label>
+				</div>
+				
+
 				<p>
 				<table width="100%" class="table table-bordered">
-					<thead style="background-color:#16D4E4; ">
+					<thead style="background-color:#16D4E4;" align="center">
 						<tr>
 							<th width="5%">No.</th>
 							<th>Nama</th>
@@ -40,4 +45,6 @@
 		
 	</div>
 </div>
+	
+		
 	

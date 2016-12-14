@@ -1,8 +1,9 @@
 <div id="data-list">
 	<div class="container-fluid">
 		
-		<div class="col-md-offset-3 col-custom">
-			<div style="margin-top: 30px;margin-left: 20px;">
+		<div class="col-md-offset-3 ">
+		<h3 align="center">Master Data</h3>
+			<div align="center">
 				<a href="<?php echo base_url("admin/dataOperator/data"); ?>">
 					<img title="Data Operator" src="<?php echo base_url("images/football-player.png");?>" alt="Profil" class="img-circle">
 				</a>
@@ -11,6 +12,9 @@
 				</a>
 				<a href="<?php echo base_url("admin/kategoriBarang/data");?>">
 					<img title="Kategori Barang" style="margin-left: 60px;" src="<?php echo base_url("images/football-club-flag.png");?>" alt="Profil" class="img-circle">
+				</a>
+				<a href="<?php echo base_url("admin/jasaPengiriman/data");?>">
+					<img title="Jasa Pengiriman" style="margin-left: 60px;" src="<?php echo base_url("images/cristiano-ronaldo.png");?>" alt="Profil" class="img-circle">
 				</a>
 			</div>
 			

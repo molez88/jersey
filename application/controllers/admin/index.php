@@ -1,4 +1,2 @@
 <?php 
-redirect('admin/homepage','refresh');
-
-?>
+redirect('admin/homepage');

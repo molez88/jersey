@@ -3,24 +3,29 @@
 	margin-left: 50px;
 	width: 55%;
 	height: auto;
-	background-color: ##D35D5D;
 }
 
 #overview h3{
-	padding: 12px;
+	padding: 22px;
 	background-color: #473BE1;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bolder;
 	color: #fff;
-	border-radius: 3px 3px 0px 0px;
+	border-radius: 8px;
 }
-#overview p{
-	font-size: 16px;
-	line-height: 16px;
-	padding: 12px 12px 0px 12px;
-}
+
 #overview ul{
 	background-color: #E3E3E3;
+	border-radius: 9px;
+
+}
+#overview ul li{
+	font-size: 18px;
+	
+}
+#overview ul li a{
+	color:#473BE1;
+	
 }
 .nav-custom{
 	background-color: #C0C0C0;
@@ -28,15 +33,20 @@
 }
 #header-menu{
 	background-color: #132952;
+	width: 100%;
+
 }
 #header-menu b{
 	color: #FFFFFF;
+	font-size: 23px;
+
 }
 #header-menu i{
 	color: #FFFFFF;
 }
 #header-menu li{
 	margin-left: 80px;
+	font-size: 23px;	
 }
 #header-menu a:hover{
 	background-color: #B13131;
@@ -44,14 +54,15 @@
 #data-list{
 	margin-top: 20px;
 	height: auto;
+	border-radius: 8px;
 }
 #data-list h3{
-	padding: 12px;
+	padding: 22px;
 	background-color: #473BE1;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bolder;
 	color: #fff;
-	border-radius: 3px 3px 0px 0px;
+	border-radius: 5px;
 }
 #data-list p{
 	font-size: 16px;
@@ -60,4 +71,7 @@
 }
 .masterData_icon{
 	margin: 50px;
+}
+#search{
+	float: right;
 }

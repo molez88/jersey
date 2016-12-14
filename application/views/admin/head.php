@@ -8,7 +8,7 @@
 		
 	</head>
 	<body>
-		<nav class="navbar navbar-default navbar-static-top ">
+		<nav class="navbar navbar-inverse navbar-static-top ">
 			<div id="header-menu">
 			  <div class="container-fluid">
 			    <div class="navbar-header" style="background-color: #464CC6;">
@@ -16,9 +16,9 @@
 			    </div>
 			   <div>
 		      <ul class="nav navbar-nav">
-		        <li><a href="<?php echo base_url("admin/homepage");?>"><i class="glyphicon glyphicon-home"></i> <b>Home</b></a></li>
-		        <li><a href="<?php echo base_url("admin/masterData");?>"><i class="glyphicon glyphicon-list-alt"></i> <b>Master Data</b></a></li>
-		        <li><a href="#"><i class="glyphicon glyphicon-tasks"></i> <b>Data Transaksi</b></a></li>
+		        <li><a href="<?php echo base_url("admin/homepage.html");?>"><i class="glyphicon glyphicon-home"></i> <b>Home</b></a></li>
+		        <li><a href="<?php echo base_url("admin/masterData.html");?>"><i class="glyphicon glyphicon-list-alt"></i> <b>Master Data</b></a></li>
+		        <li><a href="<?php echo base_url("admin/dataTransaksi.html");?>"><i class="glyphicon glyphicon-tasks"></i> <b>Data Transaksi</b></a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
 		       <li>
@@ -27,6 +27,7 @@
 
 		      </ul>
 			    </div>
-			  </div>
+			  
 		  	</div>
+		  </div>
 		</nav>
