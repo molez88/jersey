@@ -1,0 +1,53 @@
+#overview{
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 55%;
+	height: auto;
+	background-color: #E0E0E0;
+}
+
+#overview h3{
+	padding: 12px;
+	background-color: #473BE1;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #fff;
+	border-radius: 3px 3px 0px 0px;
+}
+#overview p{
+	font-size: 16px;
+	line-height: 16px;
+	padding: 12px 12px 0px 12px;
+}
+#header-menu{
+	background-color: #132952;
+}
+#header-menu b{
+	color: #FFFFFF;
+}
+#header-menu i{
+	color: #FFFFFF;
+}
+#header-menu li{
+	margin-left: 80px;
+}
+#header-menu a:hover{
+	background-color: #B13131;
+}
+#data-list{
+	margin-top: 20px;
+	height: auto;
+}
+#data-list h3{
+	padding: 12px;
+	background-color: #473BE1;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #fff;
+	border-radius: 3px 3px 0px 0px;
+}
+#data-list p{
+	font-size: 16px;
+	line-height: 16px;
+	padding: 12px 12px 0px 12px;
+}
