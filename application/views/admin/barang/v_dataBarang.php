@@ -12,7 +12,7 @@
 					<thead style="background-color:#16D4E4; ">
 						<tr>
 							<th width="5%">No.</th>
-							<th>Nama</th>
+							<th>Merk</th>
 							<th>Alamat</th>
 							<th>Email</th>
 							<th colspan="3" width="20%">Aksi</th>

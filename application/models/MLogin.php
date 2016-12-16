@@ -1,18 +1,13 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
-* 
-*/
-class Login extends CI_Controller
-{
-	
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class MLogin extends CI_Model {
+
 	public function __construct()
 	{
 		parent::__construct();
 		//Do your magic here
-		$this->load->model('MLogin');
-	}
-	function index(){
-		$this->load->view('login');
 	}
 
 }

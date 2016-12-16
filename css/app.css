@@ -6,9 +6,9 @@
 }
 
 #overview h3{
-	padding: 22px;
+	padding: 20px;
 	background-color: #473BE1;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bolder;
 	color: #fff;
 	border-radius: 8px;
@@ -20,7 +20,7 @@
 
 }
 #overview ul li{
-	font-size: 18px;
+	font-size: 15px;
 	
 }
 #overview ul li a{
@@ -38,7 +38,7 @@
 }
 #header-menu b{
 	color: #FFFFFF;
-	font-size: 23px;
+	font-size: 15px;
 
 }
 #header-menu i{
@@ -46,20 +46,16 @@
 }
 #header-menu li{
 	margin-left: 80px;
-	font-size: 23px;	
+	font-size: 15px;	
 }
 #header-menu a:hover{
 	background-color: #B13131;
 }
-#data-list{
-	margin-top: 20px;
-	height: auto;
-	border-radius: 8px;
-}
+
 #data-list h3{
-	padding: 22px;
+	padding: 20px;
 	background-color: #473BE1;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bolder;
 	color: #fff;
 	border-radius: 5px;

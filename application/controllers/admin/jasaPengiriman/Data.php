@@ -11,9 +11,11 @@ class Data extends CI_Controller
 		//Do your magic here
 		$this->load->view('admin/head');
 		$this->load->view('admin/menu_master_data');
+		$this->load->model('admin/MJasaPengiriman');
 	}
 
 	function index(){
-		$this->load->view('admin/jasaPengiriman/v_dataPengiriman');
+		$data['show'] = $this->MJasaPengiriman->show();
+		$this->load->view('admin/jasaPengiriman/v_dataPengiriman',$data);
 	}
 }

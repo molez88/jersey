@@ -1,0 +1,3 @@
+// query menampilkan customer
+
+SELECT customer.username, customer.password, customer.nama, customer.email, customer.alamat, prov_customer.provinsi FROM customer LEFT JOIN prov_customer ON customer.id_prov = prov_customer.id_prov WHERE customer.username="$id" ORDER BY tgl

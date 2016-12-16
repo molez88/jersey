@@ -10,7 +10,7 @@ class Data extends CI_Controller
 		parent::__construct();
 		$this->load->view('admin/head');
 		$this->load->view('admin/menu_master_data');
-		$this->load->model('admin/MdataOperator');
+		$this->load->model('user/MdataOperator');
 	}
 
 	function index(){

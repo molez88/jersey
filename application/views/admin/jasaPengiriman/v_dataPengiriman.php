@@ -17,27 +17,28 @@
 					<thead style="background-color:#16D4E4;" align="center">
 						<tr>
 							<th width="5%">No.</th>
-							<th>Nama</th>
-							<th>Alamat</th>
-							<th>Email</th>
-							<th colspan="3" width="20%">Aksi</th>
+							<th width="10%">Id Provinsi</th>
+							<th>Provinsi</th>
+							<th>Biaya Pengiriman</th>
+							<th colspan="2" width="10%">Aksi</th>
 						</tr>
 					</thead>
+					<?php 
+						$no = 1;
+						foreach ($show->result() as $tampil) {
+					 ?>
 					<tr>
-						<td>1</td>
-						<td>Husni</td>
-						<td>Makasar</td>
-						<td>000000</td>
-						<td>
-                    <a href="#" title="view" class="btn btn-info"><i class="glyphicon glyphicon-eye-open"></i></a>
-                  </td>
+						<td align="center"><?php echo $no++ ?>.</td>
+						<td><?php echo $tampil->id_prov ?></td>
+						<td><?php echo $tampil->provinsi ?></td>
+						<td>Rp. <?php echo number_format($tampil->biaya_kirim) ?></td>
 						<td>
                     <a href="#" title="edit" class="btn btn-success"><i class="glyphicon glyphicon-edit"></i></a>
                   </td>
                   <td>
                     <a href="#" title="hapus" class="btn btn-danger"><i class="glyphicon glyphicon-trash"></i></a>
                   </td>
-					</tr>
+					</tr><?php } ?>
 				</table></p>
 				</div>
 			</div>
