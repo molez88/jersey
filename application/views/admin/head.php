@@ -10,7 +10,7 @@
 		
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse navbar-static-top ">
+		<nav class="navbar navbar-inverse navbar-fixed-top ">
 			<div id="header-menu">
 			  <div class="container-fluid">
 			    <div class="navbar-header" style="background-color: #464CC6;">

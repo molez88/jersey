@@ -30,11 +30,11 @@
 							<td><?php echo $tampil->nama; ?></td>
 							<td><?php echo $tampil->email; ?></td>
 							<td><?php echo $tampil->provinsi; ?></td>
-							<td>
-		                 <a href="<?php echo base_url();?>admin/dataMember/data/detail_member/<?php echo $tampil->username;?>" class="btn btn-info"><i class="glyphicon glyphicon-eye-open"></i></a>
+							<td align="center">
+		                 <a href="<?php echo base_url();?>admin/dataMember/data/detail_member/<?php echo $tampil->username;?>" class="btn btn-info btn-xs"><i class="glyphicon glyphicon-eye-open"></i></a>
 	                  </td>
-	                  <td>
-	                    <button title="hapus" class="btn btn-danger"><i class="glyphicon glyphicon-trash"></i></button>
+	                  <td align="center">
+	                    <button title="hapus" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-trash"></i></button>
 	                  </td>
 						</tr><?php } ?>
 						</tbody>

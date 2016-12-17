@@ -16,23 +16,23 @@
 				    <input type="text" class="form-control" value="<?php echo $show->password?>" readonly>
 				  </div>
 				  <div class="form-group">
-				    <label>Username</label>
+				    <label>Nama Lengkap</label>
 				    <input type="text" class="form-control" value="<?php echo $show->nama?>" readonly>
 				  </div>
 				  <div class="form-group">
-				    <label>Username</label>
+				    <label>Email</label>
 				    <input type="email" class="form-control" value="<?php echo $show->email?>" readonly>
 				  </div>
 				  <div class="form-group">
-				    <label>Username</label>
+				    <label>No Telp.</label>
 				    <input type="text" class="form-control" value="<?php echo $show->no_telp?>" readonly>
 				  </div>
 				  <div class="form-group">
-				    <label>Username</label>
+				    <label>Alamat</label>
 				    <textarea class="form-control" value="<?php echo $show->alamat;?>" readonly><?php echo $show->alamat;?></textarea>
 				  </div>
 				  <div class="form-group">
-				    <label>Username</label>
+				    <label>Provinsi</label>
 				    <input type="text" class="form-control" value="<?php echo $show->provinsi?>" readonly>
 				  </div>
 				</form>

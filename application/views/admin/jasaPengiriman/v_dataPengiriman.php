@@ -32,11 +32,11 @@
 						<td><?php echo $tampil->id_prov ?></td>
 						<td><?php echo $tampil->provinsi ?></td>
 						<td>Rp. <?php echo number_format($tampil->biaya_kirim) ?></td>
-						<td>
-                    <a href="#" title="edit" class="btn btn-success"><i class="glyphicon glyphicon-edit"></i></a>
+						<td align="center">
+                    <a href="#" title="edit" class="btn btn-success btn-xs"><i class="glyphicon glyphicon-edit"></i></a>
                   </td>
-                  <td>
-                    <a href="#" title="hapus" class="btn btn-danger"><i class="glyphicon glyphicon-trash"></i></a>
+                  <td align="center">
+                    <a href="#" title="hapus" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-trash"></i></a>
                   </td>
 					</tr><?php } ?>
 				</table></p>
